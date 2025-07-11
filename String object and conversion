@@ -1,0 +1,8 @@
+# Declaring string object directly
+str1 = str("Hello from string literal")
+
+# Using string literal
+str2 = "Hello directly"
+
+print(str1)
+print(str2)
