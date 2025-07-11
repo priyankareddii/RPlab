@@ -1,0 +1,10 @@
+def modify_value(val):
+    val += 10
+    return val
+
+x = 5
+print("Original x:", x)
+
+# Simulated 'borrowing' (passing by reference)
+x = modify_value(x)  # Python passes immutable integers by value
+print("Modified x:", x)
