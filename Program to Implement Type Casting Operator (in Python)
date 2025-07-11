@@ -1,0 +1,15 @@
+# Implicit Type Casting
+a = 5       # int
+b = 2.0     # float
+c = a + b   # c becomes float automatically
+print("Result (implicit):", c)
+print("Type of c:", type(c))
+
+# Explicit Type Casting
+x = "123"
+y = int(x)  # casting string to int
+print("After casting:", y)
+print("Type of y:", type(y))
+
+z = float(y)  # casting int to float
+print("Float value:", z)
