@@ -1,0 +1,9 @@
+PI = 3.14159              # Float constant
+MAX_USERS = 1000          # Integer constant
+WELCOME_MSG = "Welcome!"  # String constant
+IS_ACTIVE = True          # Boolean constant
+
+print("PI:", PI)
+print("Max Users:", MAX_USERS)
+print("Message:", WELCOME_MSG)
+print("Is Active:", IS_ACTIVE)
