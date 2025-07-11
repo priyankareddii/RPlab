@@ -1,0 +1,14 @@
+# a & b
+x = 1000
+y = "Programming"
+
+# c
+print("x =", x)
+print("y =", y)
+
+# d
+x = 1100
+
+# e
+print("x =", x)
+print("y =", y)
