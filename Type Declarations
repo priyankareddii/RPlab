@@ -1,0 +1,10 @@
+# a. Implicit type declaration
+a = 10        # int
+b = "Hello"   # str
+
+# b. Explicit type declaration
+c: float = 10.5
+d: str = "World"
+
+print(a, b)
+print(c, d)
